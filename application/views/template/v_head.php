@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width = device-width, initial-scale = 1.0, user-scalable = 0, minimal-ui">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@8.0.0/dist/sweetalert2.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,6 +13,7 @@
   <link rel="stylesheet" href="<?= base_url('assets/plugins/fontawesome-free/css/all.min.css') ?>">
   <link rel="stylesheet" href="<?= base_url('assets/css/adminlte.min.css') ?>">
   <link rel="stylesheet" href="<?= base_url('assets/vendor/sweetalert/sweetalert.css') ?>">
+  <link rel="stylesheet" href="<?= base_url('assets/css/selectpicker.min.css') ?>">
 
   <script type="text/javascript" src="<?= base_url('assets/vendor/sweetalert/sweetalert.min.js') ?>"></script>
   <script type="text/javascript" src="<?= base_url('assets/vendor/jquery/jquery.min.js') ?>"></script>

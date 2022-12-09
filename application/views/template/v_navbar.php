@@ -11,8 +11,8 @@
 
   <ul class="navbar-nav ml-auto mr-3">
     <li class="nav-item">
-      <form class="d-flex" role="search">
-        <input class="form-control me-2 form-control-sm" type="search" placeholder="Cari HP" aria-label="Cari" id="cari">
+      <form class="d-flex" role="search" method="post" action="<?= base_url('cari/hp') ?>">
+        <input class="form-control me-2 form-control-sm" type="search" placeholder="Cari brand atau gadget" aria-label="Cari" id="cari" name="cari" autocomplete="off">
         <button class="btn btn-sm" type="submit" id="tombol">Cari</button>
       </form>
     </li>
@@ -21,7 +21,6 @@
 
 <style>
   #logo{ width: 30px }
-  #cari{ margin-right: -1px; border-radius: 0px }
-  #tombol{ border-radius: 0px; color: darkorange; border: 1px solid darkorange }
-  #tombol:hover{ background: darkorange; color: white }
+  #cari{ margin-right: -1px; border-top-right-radius: 0px; border-bottom-right-radius: 0px; background: none }
+  #tombol{ border-top-left-radius: 0px; border-bottom-left-radius: 0px; background: darkorange; color: white }
 </style>

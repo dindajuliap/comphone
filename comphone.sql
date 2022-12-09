@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 07, 2022 at 09:49 AM
+-- Generation Time: Dec 08, 2022 at 10:31 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -71,7 +71,7 @@ INSERT INTO `tabel_hp` (`id_hp`, `id_brand`, `nama_hp`, `foto_hp`) VALUES
 (4, 1, 'Samsung Galaxy Tab S8', 'galaxy-tab-s8.png'),
 (5, 1, 'Samsung Galaxy M22', 'galaxy-m22.png'),
 (6, 2, 'Xiaomi Redmi 10A', 'redmi-10a.png'),
-(7, 2, 'Xiaomi Redmi 10C', 'redmi-10c.jpg'),
+(7, 2, 'Xiaomi Redmi 10C', 'redmi-10c.png'),
 (8, 2, 'Xiaomi Redmi Note 11E Pro', 'redmi-note-11e-pro.png'),
 (9, 2, 'Xiaomi Redmi Note 11S', 'redmi-note-11s.png'),
 (10, 2, 'Xiaomi Redmi Note 11', 'redmi-note-11.png'),
@@ -102,7 +102,7 @@ INSERT INTO `tabel_hp` (`id_hp`, `id_brand`, `nama_hp`, `foto_hp`) VALUES
 (35, 7, 'Realme 9i', 'realme-9i.png'),
 (36, 8, 'Infinix Note 12', 'infinix-note-12.png'),
 (37, 8, 'Infinix Hot 12 Play', 'infinix-hot-12-play.png'),
-(38, 8, 'Infinix Note 12 G96', 'infinix-note-12-g96.jpg'),
+(38, 8, 'Infinix Note 12 G96', 'infinix-note-12-g96.png'),
 (39, 8, 'Infinix Hot 12', 'infinix-hot-12.png'),
 (40, 8, 'Infinix Hot 12i', 'infinix-hot-12i.png'),
 (41, 9, 'Huawei MatePad 10.4 (2022)', 'huawei-matepad-10.4-(2022).png'),
