@@ -5,7 +5,7 @@
 
   <div class="navbar-nav">
     <a class="nav-link <?php if($title == 'Comphone') : ?>active<?php endif ?>" href="<?= base_url() ?>">Beranda</a>
-    <a class="nav-link <?php if($title == 'Comphone - Daftar HP') : ?>active<?php endif ?>" href="<?= base_url('daftar-hp') ?>">Daftar HP</a>
+    <a class="nav-link <?php if($title == 'Comphone - Daftar Gadget') : ?>active<?php endif ?>" href="<?= base_url('daftar-gadget') ?>">Daftar Gadget</a>
     <a class="nav-link <?php if($title == 'Comphone - Bandingkan') : ?>active<?php endif ?>" href="<?= base_url('bandingkan') ?>">Bandingkan</a>
   </div>
 

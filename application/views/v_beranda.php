@@ -1,6 +1,6 @@
 <div class="container mt-5 mb-1">
   <div class="row">
-    <div class="col-lg-7 col-md-12 col-sm-12 mb-5 pr-lg-5 pr-md-0 pr-sm-0">
+    <div class="col-lg-8 col-md-12 col-sm-12 mb-5 pr-lg-5 pr-md-0 pr-sm-0">
       <p id="judul">COMPHONE</p>
 
       <p class="text-muted text-justify" style="line-height: 29px">
@@ -8,13 +8,17 @@
         sebagainya. Hal ini tentunya Anda butuhkan sebagai pertimbangan sebelum membeli gadget yang sesuai. Selain itu, Comphone juga menyediakan fitur dimana Anda dapat
         membandingkan spesifikasi dari dua gadget sekaligus sehingga dapat mempermudah Anda dalam menemukan gadget terbaik.
       </p>
+
+      <a href="<?= base_url('daftar-gadget') ?>" class="btn mt-3" id="daftar">
+          Lihat Semua Gadget
+        </a>
     </div>
 
-    <div class="col-lg-5" style="width: 100%"><div id="ilustrasi"></div></div>
+    <div class="col-lg-4" style="width: 100%"><div id="ilustrasi"></div></div>
   </div>
 
   <?php if($populer) : ?>
-    <p class="text-muted text-xs">S E D A N G</p>
+    <p class="text-muted text-xs">P A L I N G</p>
     <h2><b>Populer</b></h2>
     <hr id="underline" align="left">
 
@@ -37,7 +41,7 @@
                     <?php endif ?>
                   </h6>
 
-                  <p id="harga" class="text-muted">Rp<?= number_format($key->harga,2,',','.') ?></p>
+                  <p id="harga" class="text-muted text-sm">Rp<?= number_format($key->harga,2,',','.') ?></p>
                 </div>
               </a>
             </li>
@@ -81,7 +85,7 @@
                     <?php endif ?>
                   </h6>
 
-                  <p id="harga" class="text-muted">Rp<?= number_format($key1->harga,2,',','.') ?></p>
+                  <p id="harga" class="text-muted text-sm">Rp<?= number_format($key1->harga,2,',','.') ?></p>
                 </div>
               </a>
             </li>
@@ -105,6 +109,8 @@
   #harga{ color: black; margin-top: -7px }
   .uk-card{ height: 100%; width: 95%; padding: 15px 25px; border-radius: 5px }
   .uk-position-small{ border-radius: 50%; opacity: 0.1 }
+  #daftar{ color: darkorange; border: 1px solid darkorange; padding: 10px 30px; font-size: 18px; border-radius: 5px }
+  #daftar:hover{ color: white; background: darkorange }
 
   @media only screen and (max-width: 1024px){
     #underline{ width: 7% }

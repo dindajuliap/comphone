@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2022 at 10:31 AM
+-- Generation Time: Dec 12, 2022 at 03:38 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -46,6 +46,14 @@ INSERT INTO `tabel_brand` (`id_brand`, `nama_brand`) VALUES
 (7, 'Realme'),
 (8, 'Infinix'),
 (9, 'Huawei');
+
+--
+-- Triggers `tabel_brand`
+--
+DELIMITER $$
+CREATE TRIGGER `hapus_brand` BEFORE DELETE ON `tabel_brand` FOR EACH ROW DELETE FROM tabel_hp WHERE id_brand = old.id_brand
+$$
+DELIMITER ;
 
 -- --------------------------------------------------------
 
@@ -110,6 +118,14 @@ INSERT INTO `tabel_hp` (`id_hp`, `id_brand`, `nama_hp`, `foto_hp`) VALUES
 (43, 9, 'Huawei Nova 9 SE', 'huawei-nova-9-se.png'),
 (44, 9, 'Huawei Nova 9 SE 5G', 'huawei-nova-9-se-5g.png'),
 (45, 9, 'Huawei Nova 9 Pro', 'huawei-nova-9-pro.png');
+
+--
+-- Triggers `tabel_hp`
+--
+DELIMITER $$
+CREATE TRIGGER `hapus_hp` BEFORE DELETE ON `tabel_hp` FOR EACH ROW DELETE FROM tabel_spek WHERE id_hp = old.id_hp
+$$
+DELIMITER ;
 
 -- --------------------------------------------------------
 

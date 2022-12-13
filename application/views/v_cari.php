@@ -18,7 +18,7 @@
                 <?php endif ?>
               </h6>
 
-              <p id="harga" class="text-muted">Rp<?= number_format($key->harga,2,',','.') ?></p>
+              <p id="harga" class="text-muted text-sm">Rp<?= number_format($key->harga,2,',','.') ?></p>
             </div>
           </a>
         </div>

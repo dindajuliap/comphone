@@ -54,8 +54,9 @@ $route['404_override']         = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['hasil-pencarian']          = 'cari/index';
-$route['daftar-hp']                = 'daftar_hp/index';
+$route['daftar-gadget']            = 'daftar_gadget/index';
 $route['spesifikasi/(:any)']       = 'spesifikasi/index/$1';
 $route['bandingkan/(:any)/(:any)'] = 'bandingkan/index/$1/$2';
 
-$route['masuk'] = 'admin/masuk';
+$route['admin/masuk']  = 'log/masuk';
+$route['admin/keluar'] = 'log/keluar';
